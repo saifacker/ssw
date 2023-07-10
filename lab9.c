@@ -136,3 +136,6 @@ void lru(char s[],char F[],int l,int f)
         flag=0;
     }
 }
+gedit lab4.c
+cc lab4.c
+./a.out
