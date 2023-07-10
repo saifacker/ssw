@@ -25,6 +25,11 @@ int main()
         else
                 printf("\n Expression is Invalid\n");
 return 0;
+
+}
+int yywrap()
+{
+return 1;
 }
 
 gedit lab1a.l
