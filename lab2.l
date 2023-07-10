@@ -7,6 +7,10 @@ b {return B;}
 [\n] return '\n';
 %%
 
+int yywrap()
+{
+return 1;
+}
 
 gedit lab2.l
 gedit lab2.y 
