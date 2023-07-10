@@ -26,3 +26,8 @@ int main()
                 printf("\n Expression is Invalid\n");
 return 0;
 }
+
+gedit lab1a.l
+lex lab1a.l
+cc lex.yy.c -ll
+./a.out
