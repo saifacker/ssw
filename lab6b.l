@@ -12,3 +12,7 @@ int|char|bool|float|void|for|do|while|if|else|return|void {printf("keyword is %s
 [a-zA-Z0-9]+ {printf("identifier is %s\n",yytext);return ID;}
 . ;
 %%
+int yywrap()
+{
+return 1;
+}
