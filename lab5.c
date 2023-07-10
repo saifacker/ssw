@@ -49,3 +49,13 @@ void main()
     fclose(fp2);
     getch();
 }
+
+gedit lab5.c
+cat > input.txt
+    T1 -B = ?
+    T2 C = D
+    T3 T1 * T2
+    A T3 =?
+    cc lab5.c
+./a.out	
+    cat output.txt
