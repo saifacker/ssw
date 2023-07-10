@@ -35,4 +35,4 @@ gedit lab6b.y
 lex lab6.l
 yacc -d lab6.y
 cc lex.yy.c y.tab.c -ll
-./a.out
+./a.out lab6b.c
