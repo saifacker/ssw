@@ -19,7 +19,7 @@ ID input { id++; }
 extern FILE* yyin;
 int main(int argc ,char* argv[])
 {
-yyin = fopen(argv[1],"r";)
+yyin = fopen(argv[1],"r");
 yyparse();
 printf("OP = %d\n KEY %d\n ID %d\n",op,key,id);
 }
