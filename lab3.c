@@ -155,3 +155,7 @@ int main()
     printf("Invalid String - Rejected\n");
   }
 }
+
+gedit lab3.c
+cc lab3.c
+./a.out	
