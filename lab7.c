@@ -126,3 +126,8 @@ int main()
     }
     printf("\n\nAverage waiting time:%f",avgwt/n);
 }
+
+
+gedit lab4.c
+cc lab4.c
+./a.out	
