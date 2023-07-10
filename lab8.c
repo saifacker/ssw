@@ -90,3 +90,7 @@ int main()
 	else
 		printf("\nThe system is in an unsafe state!!");
 }
+
+gedit lab4.c
+cc lab4.c
+./a.out
