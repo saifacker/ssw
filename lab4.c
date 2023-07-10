@@ -74,3 +74,7 @@ void check()
             i=i-2;
         }
 }
+
+gedit lab3.c
+cc lab3.c
+./a.out	
