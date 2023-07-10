@@ -17,3 +17,11 @@ main()
 	fclose(yyout);
 	printf("\n Number of single line comments are = %d\n",sl); printf("\nNumber of multiline comments are =%d\n",ml);
 }
+
+gedit lab6.l
+cat > f1.c
+#include<stdio.h>
+int main()
+{
+//declaration
+}
