@@ -75,6 +75,6 @@ void check()
         }
 }
 
-gedit lab3.c
-cc lab3.c
+gedit lab4.c
+cc lab4.c
 ./a.out	
