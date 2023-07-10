@@ -41,3 +41,11 @@ void yyerror() {
 	printf("EEK, parse error! Message: ");
 	exit(-1);
 }
+
+
+gedit lab6b.l
+gedit lab6b.y 
+lex lab6.l
+yacc -d lab6.y
+cc lex.yy.c y.tab.c -ll
+./a.out
