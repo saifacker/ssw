@@ -12,6 +12,11 @@ extern yylval;
 \n {return 0;}
 %%
 
+
+int yywrap()
+{
+return 1;
+}
 gedit lab1b.l
 gedit lab1b.y
 lex lab1b.l
